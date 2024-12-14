@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Responsive Table Printer</title>
+</head>
+<body>
+    <div class="container">
+        <h1>Responsive Table Printer</h1>
+        <input type="number" id="rows" placeholder="Enter number of rows" min="1">
+        <input type="number" id="cols" placeholder="Enter number of columns" min="1">
+        <button class="btn" onclick="generateTable()">Generate Table</button>
+        <button class="btn" onclick="window.print()">Print Table</button>
+
+        <div id="table-container"></div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>

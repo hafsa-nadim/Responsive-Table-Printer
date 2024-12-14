@@ -7,17 +7,17 @@
                 return;
             }
 
-            var tableHTML = '<table>';
+           let tableHTML = '<table>';
             tableHTML += '<tr>';
 
-            for (var c = 1; c <= cols; c++) {
+            for (let c = 1; c <= cols; c++) {
                 tableHTML += '<th>Col ' + c + '</th>';
             }
             tableHTML += '</tr>';
 
-            for (var r = 1; r <= rows; r++) {
+            for (let r = 1; r <= rows; r++) {
                 tableHTML += '<tr>';
-                for (var c = 1; c <= cols; c++) {
+                for (let c = 1; c <= cols; c++) {
                     tableHTML += '<td>Row ' + r + ' Col ' + c + '</td>';
                 }
                 tableHTML += '</tr>';
